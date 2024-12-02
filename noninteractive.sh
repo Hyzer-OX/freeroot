@@ -18,10 +18,7 @@ fi
 if [ ! -e $ROOTFS_DIR/.installed ]; then
   echo "#######################################################################################"
   echo "#"
-  echo "#                                      Foxytoux INSTALLER"
-  echo "#"
-  echo "#                           Copyright (C) 2024, RecodeStudios.Cloud"
-  echo "#"
+  echo "#                                      ROOT INSTALLER
   echo "#"
   echo "#######################################################################################"
 
@@ -73,7 +70,7 @@ RESET_COLOR='\e[0m'
 display_gg() {
   echo -e "${WHITE}___________________________________________________${RESET_COLOR}"
   echo -e ""
-  echo -e "           ${CYAN}-----> Mission Completed ! <----${RESET_COLOR}"
+  echo -e "           ${CYAN}-----> Root Installed <----${RESET_COLOR}"
   echo -e ""
   echo -e "${WHITE}___________________________________________________${RESET_COLOR}"
 }

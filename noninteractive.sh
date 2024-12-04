@@ -18,7 +18,7 @@ fi
 if [ ! -e $ROOTFS_DIR/.installed ]; then
   echo "#######################################################################################"
   echo "#"
-  echo "#                                      ROOT INSTALLER"
+  echo "#                                      UBUNTU 20.04 INSTALLER"
   echo "#"
   echo "#######################################################################################"
 
@@ -70,7 +70,7 @@ RESET_COLOR='\e[0m'
 display_gg() {
   echo -e "${WHITE}___________________________________________________${RESET_COLOR}"
   echo -e ""
-  echo -e "           ${CYAN}-----> Root Installed <----${RESET_COLOR}"
+  echo -e "           ${CYAN}-----> Ubuntu 20.04 Installed <----${RESET_COLOR}"
   echo -e ""
   echo -e "${WHITE}___________________________________________________${RESET_COLOR}"
 }
